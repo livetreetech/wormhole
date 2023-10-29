@@ -1,4 +1,4 @@
-# Building Your First Cross-Chain Application
+# ETH London Hackathon
 
 
 # 1. **Project Details**
