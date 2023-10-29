@@ -1,4 +1,4 @@
-# ETH London Hackathon
+# ETH London
 
 
 # 1. **Project Details**
