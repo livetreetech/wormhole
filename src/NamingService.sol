@@ -53,6 +53,7 @@ contract NamingService is IWormholeReceiver {
         require(msg.sender == address(wormholeRelayer), "Only relayer allowed");
 
         // Ensure no duplicate deliveries
+        // need to also add tag values
         require(!seenDeliveryVaaHashes[deliveryHash], "Message already processed");
         seenDeliveryVaaHashes[deliveryHash] = true;
 
